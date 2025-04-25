@@ -4,11 +4,11 @@ public class Animal {
         this.name = "Animal";
     }
     public void makeSound() {
-        System.out.println("Animal sounds:");
+
     }
 }
 
-//Dog
+//Dog inheritor
 
 class Dog extends Animal {
     public Dog(String name) {
@@ -20,7 +20,7 @@ class Dog extends Animal {
     }
 }
 
-//Cat
+//Cat inheritor
 
 class Cat extends Animal {
     public Cat(String name) {
@@ -31,8 +31,9 @@ class Cat extends Animal {
         System.out.println("Meow!");
     }
 }
-// Bird
+// Bird inheritor
 class Bird extends Animal {
+    //bird class constructor
     public Bird( String name){
         super(name);
     }
